@@ -11,6 +11,7 @@ POST   /register                                Accounts.register
 POST   /authenticate                            Accounts.authenticate
 GET    /logout                                  Accounts.logout
 
+
 # Home page
 GET     /dashboard                              Dashboard.index
 GET     /dashboard/{id}/deletetodo/{todoid}     Dashboard.deleteTodo
